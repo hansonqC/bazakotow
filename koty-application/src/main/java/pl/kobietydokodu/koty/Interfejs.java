@@ -1,17 +1,19 @@
-import models.Kot;
-import models.KotDao;
+package pl.kobietydokodu.koty;
+
+
+import pl.kobietydokodu.koty.KotDao;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import pl.kobietydokodu.koty.domain.Kot;
 
 /**
  * Created by lukasz on 2017-09-13.
  */
-public class Main {
+public class Interfejs {
 
     static Scanner scanner = new Scanner(System.in);
 

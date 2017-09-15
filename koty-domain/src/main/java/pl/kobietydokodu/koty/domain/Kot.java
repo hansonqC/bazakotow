@@ -1,8 +1,6 @@
-package models;
+package pl.kobietydokodu.koty.domain;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Scanner;
 
 /**
  * Created by lukasz on 2017-09-13.
@@ -84,7 +82,7 @@ private String ownerName;
 
     @Override
     public String toString() {
-        return "Kot " +
+        return "pl.kobietydokodu.koty.domain.Kot " +
                 "imie :" + name + '\'' +
                 ", waga : " + weight +
                 ", data urodzenia : " + birthDate +
